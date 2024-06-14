@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Build Completed'
         retry(count: 3) {
-          sh 'zjj'
+          echo 'trying Build'
         }
 
       }
